@@ -35,8 +35,7 @@ router.post('/register', async(req, res) => {
         const savedUserRes = await newUser.save()
 
         if(savedUserRes){
-            res.send(newUser)
-            return res.status(200).json({msg:"User is successfully saved"})
+            return res.send(newUser)
         }
     });
 });

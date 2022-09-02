@@ -1,0 +1,20 @@
+.f-button{
+    max-width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.f-button button{
+    width: 100%;
+}
+
+.kep-login-facebook.metro {
+    border-radius: 4px !important;
+    max-width: 100%;
+    max-height: 38px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 7px;
+    margin-top: 30px;
+    font-size: 15px;
+}
